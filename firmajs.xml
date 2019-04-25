@@ -1,0 +1,589 @@
+<?xml version = "1.0" encoding = "UTF-8" standalone = "yes"?>
+<?xml-stylesheet type="text/xsl" href="firmajs.xslt"?>
+
+<!DOCTYPE firma [
+<!ELEMENT firma (klient+)>
+<!ELEMENT klient (imie, nazwisko, miejscowosc, szkoda+)>
+<!ELEMENT imie (#PCDATA)>
+<!ELEMENT nazwisko (#PCDATA)>
+<!ELEMENT miejscowosc (#PCDATA)>
+<!ELEMENT szkoda (rodzaj_szkody, przyznane_odszkodowanie, samochod, photo)>
+<!ELEMENT rodzaj_szkody (#PCDATA)>
+<!ELEMENT przyznane_odszkodowanie (#PCDATA)>
+<!ELEMENT photo (#PCDATA)>
+<!ELEMENT samochod (marka)>
+<!ELEMENT marka (#PCDATA)>
+]>
+
+
+<firma>
+	<klient>
+		<imie>Damian</imie>
+		<nazwisko>
+			Dudek
+		</nazwisko>
+		<miejscowosc>
+			Przytkowice
+		</miejscowosc>
+
+		<szkoda>
+        <rodzaj_szkody>
+          OC
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          9000
+        </przyznane_odszkodowanie>
+				<samochod>
+					<marka>
+						DS3
+					</marka>
+				</samochod>
+				<photo>https://parkers-images.bauersecure.com/pagefiles/198153/cut-out/600x400/ds3_cab.jpg</photo>
+		</szkoda>
+
+    <szkoda>
+        <rodzaj_szkody>
+          AC
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          2000
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            DS3
+          </marka>
+        </samochod>
+				<photo>https://parkers-images.bauersecure.com/pagefiles/198153/cut-out/600x400/ds3_cab.jpg</photo>
+    </szkoda>
+
+    <szkoda>
+        <rodzaj_szkody>
+          OC
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          1000
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            DS3
+          </marka>
+        </samochod>
+				<photo>https://parkers-images.bauersecure.com/pagefiles/198153/cut-out/600x400/ds3_cab.jpg</photo>
+    </szkoda>
+  </klient>
+
+
+  <klient>
+    <imie>Krzysztof</imie>
+    <nazwisko>
+      Pawlik
+    </nazwisko>
+    <miejscowosc>
+      Kraków
+    </miejscowosc>
+
+
+    <szkoda>
+        <rodzaj_szkody>
+          -
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          -
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            VW Golf
+          </marka>
+        </samochod>
+				<photo>https://cdn.images.express.co.uk/img/dynamic/24/590x/VW-Golf-R-967541.jpg?r=1534888054511</photo>
+    </szkoda>
+
+    <szkoda>
+        <rodzaj_szkody>
+          OC
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          19000
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            Bentley Continental
+          </marka>
+        </samochod>
+				<photo>https://hips.hearstapps.com/amv-prod-cad-assets.s3.amazonaws.com/images/17q3/685272/2019-bentley-continental-gt-photos-and-info-news-car-and-driver-photo-689618-s-original.jpg</photo>
+    </szkoda>
+
+    <szkoda>
+        <rodzaj_szkody>
+          OC
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          200
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            Skoda Fabia
+          </marka>
+        </samochod>
+				<photo>https://d-mf.ppstatic.pl/art/ew/bm/bcnyb5wksg8g004og4gkg/fabia_14.1200.jpg</photo>
+    </szkoda>
+  </klient>
+
+
+  <klient>
+    <imie>Konrad</imie>
+    <nazwisko>
+      Górszczykowski
+    </nazwisko>
+    <miejscowosc>
+      Bochnia
+    </miejscowosc>
+
+
+    <szkoda>
+        <rodzaj_szkody>
+          OC
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          30000
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            Ford Mustang
+          </marka>
+        </samochod>
+				<photo>https://hips.hearstapps.com/amv-prod-cad-assets.s3.amazonaws.com/images/15q2/657945/2016-ford-mustang-to-offer-nostalgic-trim-packages-news-car-and-driver-photo-659051-s-original.jpg</photo>
+    </szkoda>
+
+    <szkoda>
+        <rodzaj_szkody>
+          AC
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          1000
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            BMW 3
+          </marka>
+        </samochod>
+				<photo>https://www.cstatic-images.com/stock/1170x1170/78/img-2072148792-1499101080878.jpg</photo>
+    </szkoda>
+
+    <szkoda>
+        <rodzaj_szkody>
+          OC
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          1400
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            BMW 3
+          </marka>
+        </samochod>
+				<photo>https://www.cstatic-images.com/stock/1170x1170/78/img-2072148792-1499101080878.jpg</photo>
+    </szkoda>
+  </klient>
+
+
+  <klient>
+    <imie>Chuck</imie>
+    <nazwisko>
+      Góra
+    </nazwisko>
+    <miejscowosc>
+      Wadowice
+    </miejscowosc>
+
+
+    <szkoda>
+        <rodzaj_szkody>
+          -
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          1200
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            Fiat Panda
+          </marka>
+        </samochod>
+				<photo>https://www.fiat.pl/content/dam/fiat/com/models/cross/panda/family-page/1200/gallery/02_gallery_A.jpg.transform/width-960/img.jpg</photo>
+    </szkoda>
+
+    <szkoda>
+        <rodzaj_szkody>
+          OC
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          9000
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            Fiat Panda
+          </marka>
+        </samochod>
+				<photo>https://www.fiat.pl/content/dam/fiat/com/models/cross/panda/family-page/1200/gallery/02_gallery_A.jpg.transform/width-960/img.jpg</photo>
+    </szkoda>
+
+    <szkoda>
+        <rodzaj_szkody>
+          OC
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          900
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            Fiat Panda
+          </marka>
+        </samochod>
+				<photo>https://www.fiat.pl/content/dam/fiat/com/models/cross/panda/family-page/1200/gallery/02_gallery_A.jpg.transform/width-960/img.jpg</photo>
+    </szkoda>
+  </klient>
+
+
+  <klient>
+    <imie>Kamil</imie>
+    <nazwisko>
+      Grzywa
+    </nazwisko>
+    <miejscowosc>
+      Wysoka
+    </miejscowosc>
+
+
+    <szkoda>
+        <rodzaj_szkody>
+          OC
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          9000
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            Vw lupo
+          </marka>
+        </samochod>
+				<photo>https://www.bmw.pl/content/dam/bmw/common/all-models/1-series/3-door/2015/ataglance/design-fw-exterieur-01.jpg/_jcr_content/renditions/cq5dam.resized.img.585.low.time1511562860565.jpg</photo>
+    </szkoda>
+
+    <szkoda>
+        <rodzaj_szkody>
+          OC
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          9000
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            VW Lupo
+          </marka>
+        </samochod>
+				<photo>https://www.bmw.pl/content/dam/bmw/common/all-models/1-series/3-door/2015/ataglance/design-fw-exterieur-01.jpg/_jcr_content/renditions/cq5dam.resized.img.585.low.time1511562860565.jpg</photo>
+    </szkoda>
+
+    <szkoda>
+        <rodzaj_szkody>
+          OC
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          91000
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            VW Lupo
+          </marka>
+        </samochod>
+				<photo>https://www.bmw.pl/content/dam/bmw/common/all-models/1-series/3-door/2015/ataglance/design-fw-exterieur-01.jpg/_jcr_content/renditions/cq5dam.resized.img.585.low.time1511562860565.jpg</photo>
+    </szkoda>
+  </klient>
+
+
+  <klient>
+    <imie>Marcin</imie>
+    <nazwisko>
+      Biel
+    </nazwisko>
+    <miejscowosc>
+      Sucha
+    </miejscowosc>
+
+
+    <szkoda>
+        <rodzaj_szkody>
+          OC
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          2100
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            Fiat Multipla
+          </marka>
+        </samochod>
+				<photo>http://blog.pclab.pl/i/b/6f4eb0d5-535dac34-2/visio-2.jpg</photo>
+    </szkoda>
+
+    <szkoda>
+        <rodzaj_szkody>
+          AC
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          100
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            Fiat Multipla
+          </marka>
+        </samochod>
+				<photo>http://blog.pclab.pl/i/b/6f4eb0d5-535dac34-2/visio-2.jpg</photo>
+    </szkoda>
+
+    <szkoda>
+        <rodzaj_szkody>
+          OC
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          9000
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            Fiat Multipla
+          </marka>
+        </samochod>
+				<photo>http://blog.pclab.pl/i/b/6f4eb0d5-535dac34-2/visio-2.jpg</photo>
+    </szkoda>
+  </klient>
+
+
+  <klient>
+    <imie>Maciej</imie>
+    <nazwisko>
+      Kompot
+    </nazwisko>
+    <miejscowosc>
+      Przytkowice
+    </miejscowosc>
+
+
+    <szkoda>
+        <rodzaj_szkody>
+          OC
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          2000
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            Opel Corsa
+          </marka>
+        </samochod>
+				<photo>https://i.iplsc.com/opel-corsa-opc/0003UBQCW1DT0KVO-C122-F4.jpg</photo>
+    </szkoda>
+
+    <szkoda>
+        <rodzaj_szkody>
+          OC
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          9000
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            Opel Corsa
+          </marka>
+        </samochod>
+				<photo>https://i.iplsc.com/opel-corsa-opc/0003UBQCW1DT0KVO-C122-F4.jpg</photo>
+    </szkoda>
+
+    <szkoda>
+        <rodzaj_szkody>
+          AC
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          1000
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            Opel Astra
+          </marka>
+        </samochod>
+				<photo>https://www.tuningblog.eu/wp-content/uploads/2017/04/Vauxhall-Opel-Astra-VXR-Chiptuning-OPC-4.jpg</photo>
+    </szkoda>
+  </klient>
+
+
+  <klient>
+    <imie>Paweł</imie>
+    <nazwisko>
+      Kurboński
+    </nazwisko>
+    <miejscowosc>
+      Kalwaria Zebrzydowska
+    </miejscowosc>
+
+
+    <szkoda>
+        <rodzaj_szkody>
+          OC
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          4000
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            Mini Cooper
+          </marka>
+        </samochod>
+				<photo>https://www.mini.com.pl/content/dam/MINI/common/Range/lci_f57/MINI_LCI_F57_sharing_item.jpg</photo>
+    </szkoda>
+
+    <szkoda>
+        <rodzaj_szkody>
+          OC
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          9000
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            Mini Cooper
+          </marka>
+        </samochod>
+				<photo>https://www.mini.com.pl/content/dam/MINI/common/Range/lci_f57/MINI_LCI_F57_sharing_item.jpg</photo>
+    </szkoda>
+
+    <szkoda>
+        <rodzaj_szkody>
+          -
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          2000
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            Mini Cooper
+          </marka>
+        </samochod>
+				<photo>https://www.mini.com.pl/content/dam/MINI/common/Range/lci_f57/MINI_LCI_F57_sharing_item.jpg</photo>
+    </szkoda>
+  </klient>
+
+
+  <klient>
+    <imie>Tomasz</imie>
+    <nazwisko>
+      Wójcikowski
+    </nazwisko>
+    <miejscowosc>
+      Kraków
+    </miejscowosc>
+
+
+    <szkoda>
+        <rodzaj_szkody>
+          OC
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          100
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            Peugeot 107
+          </marka>
+        </samochod>
+				<photo>https://cdn.motor1.com/images/mgl/l0rqW/s4/2018-mclaren-720s-review.jpg</photo>
+    </szkoda>
+
+    <szkoda>
+        <rodzaj_szkody>
+          OC
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          200
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            Peugeot 107
+          </marka>
+        </samochod>
+				<photo>https://cdn.motor1.com/images/mgl/l0rqW/s4/2018-mclaren-720s-review.jpg</photo>
+    </szkoda>
+
+    <szkoda>
+        <rodzaj_szkody>
+          AC
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          200
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            Peugeot 107
+          </marka>
+        </samochod>
+				<photo>https://cdn.motor1.com/images/mgl/l0rqW/s4/2018-mclaren-720s-review.jpg</photo>
+    </szkoda>
+  </klient>
+
+
+  <klient>
+    <imie>Michał</imie>
+    <nazwisko>
+      Krombrny
+    </nazwisko>
+    <miejscowosc>
+      Woleń
+    </miejscowosc>
+
+    <szkoda>
+        <rodzaj_szkody>
+          -
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          2000
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            DS3
+          </marka>
+        </samochod>
+				<photo>https://bmc-3.statics.d404.pl/uploads/images/1200x0/8f88dd519f93ba6803ef3626d8e97b4af02a5a6e/test-citroen-ds3-1-6-thp.jpg</photo>
+    </szkoda>
+
+    <szkoda>
+        <rodzaj_szkody>
+          OC
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          1000
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            DS3
+          </marka>
+        </samochod>
+				<photo>https://bmc-3.statics.d404.pl/uploads/images/1200x0/8f88dd519f93ba6803ef3626d8e97b4af02a5a6e/test-citroen-ds3-1-6-thp.jpg</photo>
+    </szkoda>
+
+    <szkoda>
+        <rodzaj_szkody>
+          OC
+        </rodzaj_szkody>
+        <przyznane_odszkodowanie>
+          2000
+        </przyznane_odszkodowanie>
+        <samochod>
+          <marka>
+            DS3
+          </marka>
+        </samochod>
+				<photo>https://bmc-3.statics.d404.pl/uploads/images/1200x0/8f88dd519f93ba6803ef3626d8e97b4af02a5a6e/test-citroen-ds3-1-6-thp.jpg</photo>
+    </szkoda>
+  </klient>
+
+
+
+</firma>
